@@ -12,5 +12,5 @@ $java -jar hissummer-mockserver.war  --server.port=8081 --spring.data.mongodb.ho
 After started succesfully , access http://localhost:8081/
 
 ## Version
-<a href="https://github.com/hissummer-mockserver/StandaloneJar/raw/master/hissummer-mockserver-0.0.1-alpha.war"> 0.0.1-alpha </a>
-<a href="https://github.com/hissummer-mockserver/StandaloneJar/raw/master/mockserver-0.0.2-alpha.war"> 0.0.2-alpha </a>
+* <a href="https://github.com/hissummer-mockserver/StandaloneJar/raw/master/hissummer-mockserver-0.0.1-alpha.war"> 0.0.1-alpha </a>
+* <a href="https://github.com/hissummer-mockserver/StandaloneJar/raw/master/mockserver-0.0.2-alpha.war"> 0.0.2-alpha </a>
