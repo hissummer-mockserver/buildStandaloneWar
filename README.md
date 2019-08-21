@@ -1,8 +1,9 @@
 # Build Standalone War
-## the script build adminui and mock server backend and generate the standalone war
+## This is the script to build adminui and mock server backend and generate the standalone war
 You have to install build tools for vue and java project. 
 ```
-git clone 
+git clone git@github.com:hissummer-mockserver/BuildStandaloneWar.git
+cd BuildStandaloneWar
 sh build.sh
 ```
 ## Build steps
