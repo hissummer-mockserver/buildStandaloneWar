@@ -68,7 +68,7 @@ cd ../mockserverAdminUI
 git pull
 yarn build
 mkdir -p ../mockServer/src/main/resource/static
-cp -rf dist/* ../mockServer/src/main/resources/static
+cp -rf dist/* ../mockServer/src/main/resource/static
 mkdir -p ../mockServer/src/main/webapp/templates/
 cp -rf dist/index.html ../mockServer/src/main/webapp/templates/
 cd ../mockServer
