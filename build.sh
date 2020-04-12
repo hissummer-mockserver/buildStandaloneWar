@@ -21,7 +21,8 @@ function help(){
 
    echo -e "build.sh [options] "
    echo -e "\t -h help infomation "
-   echo -e "\t -v specify the version you want,default will be master "
+   echo -e "\t -v <versionName> specify the version you want,default will be master "
+   echo -e "\t -d deploy the package "
    exit 0
 
 }
