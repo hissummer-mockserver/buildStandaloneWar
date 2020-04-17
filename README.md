@@ -1,4 +1,4 @@
-#hissummer-mockserver 构建脚本
+# hissummer-mockserver 构建脚本
 用于构建“后台服务”和“前端管理页面”，并打包成一个war包文件。 war包文件可以单独或者部署在tomcat容器中使用。docker image的重新构建需要用到构建好的war包。
 
 #使用方法
@@ -48,3 +48,8 @@ sudo docker  build -t <tag name>
 
 # 贡献
 Horace Li
+
+# 赞助
+
+paypal account: https://www.paypal.me/nighteblis
+
