@@ -22,8 +22,8 @@ build.sh [options]
 docker compose file 可以直接启动mongodb和mockserver
 
 ```
-cd compose
-sudo docker-compose up -d
+#cd compose
+#sudo docker-compose up -d
 ```
 启动成功后访问 http://localhost:8080/
 
@@ -38,16 +38,23 @@ docker文件中的内容用于构建docker image。如果你不需要修改和�
 
 * 第一步：拷贝war包到dockerfile目录
 ```
-cp  hissummer-mockserver.war dockerfile
+#cp  hissummer-mockserver.war dockerfile
 ```
 * 第二步： 构建镜像
 ```
-cd dockerfile
-sudo docker  build -t <tag name>
+#cd dockerfile
+#sudo docker  build -t <tag name>
 ```
+
+# 链接
+
+docker build: https://docs.docker.com/engine/reference/commandline/build/
+docker compose: https://docs.docker.com/compose/
+
 
 # 贡献
 Horace Li
+
 
 # 赞助
 
