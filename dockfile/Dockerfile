@@ -7,3 +7,4 @@ ENV mongodbHost=172.16.1.250
 ENV serverPort=8080
 ENV mongodbPort=27017
 CMD /data/startmockserver.sh ${serverPort} ${mongodbHost} ${mongodbPort}
+#CMD echo hello

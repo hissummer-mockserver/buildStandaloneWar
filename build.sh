@@ -68,8 +68,8 @@ fi
 cd ../mockserverAdminUI
 git pull
 yarn build
-mkdir -p ../mockServer/src/main/resource/static
-cp -rf dist/* ../mockServer/src/main/resource/static
+mkdir -p ../mockServer/src/main/resources/static
+cp -rf dist/* ../mockServer/src/main/resources/static
 mkdir -p ../mockServer/src/main/webapp/templates/
 cp -rf dist/index.html ../mockServer/src/main/webapp/templates/
 cd ../mockServer
@@ -80,5 +80,7 @@ mvn versions:set -DnewVersion=${version}
 if $deploy
 then 
     mvn clean deploy -Dregistry=https://maven.pkg.github.com/hissummer-mockserver -Dmaven.test.skip=true
+else
+    mvn clean package -DskipTests=true
 fi
 
