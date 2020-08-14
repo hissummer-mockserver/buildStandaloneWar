@@ -1,7 +1,6 @@
 #!/bin/bash
-#
 #build mockserver with admin UI and package a war file.
-#
+
 
 buildScriptPath="`( cd \"$(dirname $0)\" && pwd )`" 
 
@@ -19,7 +18,7 @@ function checkCommand(){
 
 function help(){
 
-   echo -e "build.sh [options] "
+   echo -e "./buildWar.sh [options] "
    echo -e "\t -h help infomation "
    echo -e "\t -v <versionName> specify the version you want,default will be master "
    echo -e "\t -d deploy the package "
